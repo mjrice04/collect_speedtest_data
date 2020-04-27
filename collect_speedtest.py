@@ -28,7 +28,7 @@ def run_speedtest():
     return speedtest_output
 
 
-def data_handler(df: DataFrame):
+def data_handler(df):
     """
     Either saves down first entry of speedtest-cli output
     :param df:
